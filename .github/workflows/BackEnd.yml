@@ -1,4 +1,4 @@
-name : Build Front-End
+name : Build Back-End
 
 on: [push]
 
@@ -19,4 +19,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: rojen33/frontEnd:latest
+        tags: rojen33/backend:latest
